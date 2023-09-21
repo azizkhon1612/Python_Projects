@@ -59,6 +59,7 @@ if __name__ == '__main__':
             else:
                 continue
         else:
-            break
+            print("Please enter relevant drink name")
+            continue
 
     exit(0)
