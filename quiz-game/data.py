@@ -1,3 +1,5 @@
+import requests
+
 question_data = [
     {
         "category": "Science: Computers",
@@ -35,3 +37,14 @@ question_data = [
      "correct_answer": "True", "incorrect_answers": ["False"]}
 
 ]
+
+
+# def get_data(api):
+#     response = requests.get(f"{api}")
+#     if response.status_code == 200:
+#         print("sucessfully fetched the data")
+#         print(response.json())
+#     else:
+#         print(f"Hello person, there's a {response.status_code} error with your request")
+#
+# get_data(api = "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=boolean")
